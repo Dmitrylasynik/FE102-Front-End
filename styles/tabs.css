@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   font-family: 'Open Sans', 'Realway' sans-serif;
+}
+
+.Tabs {
+   width: 1170px;
+   height: 541px;
+   padding: 0 15px;
+   margin: 10px auto;
+
+}
+
+.Tabs-link {
+   font-family: 'Open Sans';
+   font-size: 14px;
+   display: flex;
+   width: 1170px;
+   height: 40px;
+   margin: -1px auto;
+   text-align: center;
+   color: #333333;
+}
+
+.Tabs-link__TAB1 {
+   width: 203px;
+   height: 40px;
+   border: 1px solid #C6CBCD;
+   border-bottom: 1px solid white;
+   border-radius: 5px 5px 0px 0px;
+   padding-top: 10px;
+}
+
+.Tabs-link__TAB2 {
+   width: 181px;
+   padding-top: 10px;
+
+}
+
+.Tabs-link__TAB3 {
+   width: 182px;
+   padding-top: 10px;
+}
+
+.Tabs-link__TAB4 {
+   width: 600px;
+}
+
+.Tabs-content {
+   border: 1px solid #C6CBCD;
+   display: flex;
+}
+
+.Tabs-content-text__title {
+   font-family: 'Open Sans';
+   font-weight: 700;
+   font-size: 26px;
+   width: 570px;
+   margin: 47px auto;
+   margin-left: 100px;
+}
+
+.Tabs-content-text__h5 {
+   font-family: 'Raleway';
+   font-weight: 400;
+   font-size: 20px;
+   color: #000000;
+   width: 570px;
+   height: 200px;
+   margin-left: 100px;
+   margin-right: 29px;
+}
+
+.Tabs-content-text__button {
+   width: 270px;
+   height: 58px;
+   font-family: 'Open Sans';
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 25px;
+   background: #EC7979;
+   margin-top: 30px;
+   margin-left: 100px;
+   color: white;
+}
+
+.Tabs-content__imge {
+   width: 470px;
+   height: 500px;
+}
