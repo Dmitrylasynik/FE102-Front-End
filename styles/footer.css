@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+
+html {
+   font-family: 'Raleway', 'Open Sans', sans-serif;
+}
+
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+
+
+.footer {
+   width: 1170px;
+   height: 164px;
+   padding: 0 15px;
+   margin: 0 auto;
+   background-color: black;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+
+.footer__text {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   color: #FFFFFF80;
+   padding-top: 30px;
+}
+
+.footer__svg {
+   font-size: 36px;
+   color: #CCCCCC;
+   cursor: pointer;
+   transition: color .2s;
+   display: flex;
+   gap: 40px;
+
+}
+
+.fa-facebook-f:hover {
+   color: rgb(109, 109, 240);
+   transform: scale(1.2s);
+   transition: .2s;
+}
+
+.fa-facebook-f::after {
+   content: '';
+   font-weight: 600;
+   font-family: 'Font Awesome 6 free';
+}
+
+.fa-twitter:hover {
+   color: blue;
+   transform: scale(1.2s);
+   transition: .2s;
+}
+
+.fa-twitter::after {
+   content: '';
+   font-weight: 600;
+   font-family: 'Font Awesome 6 free';
+}
+
+.fa-linkedin:hover {
+   color: blue;
+   transform: scale(1.2s);
+   transition: .2s;
+}
+
+.fa-linkedin::after {
+   content: '';
+   font-weight: 600;
+   font-family: 'Font Awesome 6 free';
+}
+
+.fa-pinterest:hover {
+   color: blue;
+   transform: scale(1.2s);
+   transition: .2s;
+}
+
+.fa-pinterest::after {
+   content: '';
+   font-weight: 600;
+   font-family: 'Font Awesome 6 free';
+}
+
+.fa-instagram:hover {
+   color: blue;
+   transform: scale(1.2s);
+   transition: .2s;
+}
+
+.fa-instagram::after {
+   content: '';
+   font-weight: 600;
+   font-family: 'Font Awesome 6 free';
+}
+
+.fa-github:hover {
+   color: blue;
+   transform: scale(1.2s);
+   transition: .2s;
+}
+
+.fa-github::after {
+   content: '';
+   font-weight: 600;
+   font-family: 'Font Awesome 6 free';
+}
+
+.fa-rss:hover {
+   color: blue;
+   transform: scale(1.2s);
+   transition: .2s;
+}
+
+.fa-rss::after {
+   content: '';
+   font-weight: 600;
+   font-family: 'Font Awesome 6 free';
+}
