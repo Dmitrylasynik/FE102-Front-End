@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+
+html {
+   font-family: 'Raleway', 'Open Sans', sans-serif;
+}
+
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+.social {
+   width: 1170px;
+   height: 140px;
+   margin: 0 auto;
+   margin-bottom: 70px;
+   background: #F8EFEF;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.social__text {
+   width: 470px;
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: column;
+   gap: 30px;
+}
+
+.social__h4 {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 33px;
+   display: flex;
+   align-items: center;
+   text-transform: capitalize;
+
+   color: #333333;
+}
+
+.social__h5 {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+
+   color: #86878B;
+}
+
+.social__svg {
+   font-size: 48px;
+   color: #CCCCCC;
+   cursor: pointer;
+   transition: color .2s;
+   display: flex;
+   gap: 40px;
+   padding-left: 20px;
+
+}
+
+.fa-facebook-f:hover {
+   color: rgb(109, 109, 240);
+   transform: scale(1.2s);
+   transition: .2s;
+}
+
+.fa-facebook-f::after {
+   content: '';
+   font-weight: 600;
+   font-family: 'Font Awesome 6 free';
+}
+
+.fa-twitter:hover {
+   color: rgb(109, 109, 240);
+   transform: scale(1.2s);
+   transition: .2s;
+}
+
+.fa-twitter::after {
+   content: '';
+   font-weight: 600;
+   font-family: 'Font Awesome 6 free';
+}
+
+.fa-linkedin:hover {
+   color: rgb(109, 109, 240);
+   transform: scale(1.2s);
+   transition: .2s;
+}
+
+.fa-linkedin::after {
+   content: '';
+   font-weight: 600;
+   font-family: 'Font Awesome 6 free';
+}
+
+.fa-pinterest:hover {
+   color: rgb(109, 109, 240);
+   transform: scale(1.2s);
+   transition: .2s;
+}
+
+.fa-pinterest::after {
+   content: '';
+   font-weight: 600;
+   font-family: 'Font Awesome 6 free';
+}
+
+.fa-instagram:hover {
+   color: rgb(109, 109, 240);
+   transform: scale(1.2s);
+   transition: .2s;
+}
+
+.fa-instagram::after {
+   content: '';
+   font-weight: 600;
+   font-family: 'Font Awesome 6 free';
+}
+
+.fa-github:hover {
+   color: rgb(109, 109, 240);
+   transform: scale(1.2s);
+   transition: .2s;
+}
+
+.fa-github::after {
+   content: '';
+   font-weight: 600;
+   font-family: 'Font Awesome 6 free';
+}
+
+.fa-rss:hover {
+   color: rgb(109, 109, 240);
+   transform: scale(1.2s);
+   transition: .2s;
+}
+
+.fa-rss::after {
+   content: '';
+   font-weight: 600;
+   font-family: 'Font Awesome 6 free';
+}
